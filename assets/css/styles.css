@@ -1,0 +1,171 @@
+/*
+Description: Reproduction de l'index "Massively".
+Auteurs: Jean-Claude
+         Eliez Maigné*/
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header-title {
+    color: #ffffff;
+    font-size: 72px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin:  150px;
+}
+.header-subtitle {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    text-align: center;
+    margin: 150px;
+}
+
+/*hr {
+    color: #eeeeee;
+    width: 490px;
+    align: left;
+}*/
+.container {
+    background-color: white;
+    position: relative;
+    margin: 150px;
+    
+}
+.nav {
+    margin: 20px;
+    background: transparent;
+}
+.icons-bar {
+    font-size: 28px;
+    text-align: right;
+    
+}
+.fa {
+    margin: 20px;
+}
+.fa:hover{
+    color: #00ffff;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+
+}
+.date {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    text-align:center;
+}
+.last-post-header {
+    font-size: 55px;
+    font-family: Helvetica, serif;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 6px;
+}
+.last-post-header:hover {
+    color: #00ffff;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.last-post-p {
+    font-size: 23px;
+    font-family: Georgia;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+/*--------- Gestion des Boutons---------*/
+
+
+
+.btn {
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn.btn-primary {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    border: 2px solid;
+    background: transparent;
+    border-radius: 0;
+    color: black;
+    letter-spacing: 2px;
+}
+.btn.btn-primary:hover {
+    background: transparent;
+    border: 2px solid #00ffff;
+    color: #00ffff;
+}
+
+/*-----------------Fin Gestion des Boutons------------*/
+
+.article-img {
+    clear: both;
+    text-align: center;
+    margin: auto;
+}
+
+.article-title {
+    font-family: sans-serif;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.article-title:hover{
+    color: #00ffff;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.article-p {
+    text-align: justify;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+.col-lg-6 {
+    border-color: #eeeeee;
+    border-width: 2px;
+    border-style: solid;
+    margin: auto;
+    padding: auto;
+}
+
+/*.pagination {
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.pagination-lg {
+    font-family: Helvetica, sans-serif;
+    font-weight: 550;
+    border: 2px solid #eeeeee;
+    background: transparent;
+    border-radius: 0;
+    letter-spacing: 2px;
+}
+ul {
+    color: black;
+    
+}*/
